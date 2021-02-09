@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "0a3cabd9-a49a-4f5d-92a3-4c8580e9f3ff",
+		"name": "Data-Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "\nhttp://localhost:1337/api/v1/regions/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"region_id\" : 5,\r\n    \"region_name\" : \"Antardia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/v1/regions/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"v1",
+						"regions",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1337/api/v1/regions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/api/v1/regions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"v1",
+						"regions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1337/api/v1/regions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"region_name\" : \"Antartica\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/v1/regions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"v1",
+						"regions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
